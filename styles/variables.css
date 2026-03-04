@@ -11,5 +11,6 @@
     --logo-font-size: clamp(3.0625rem, 1,8943rem + 4.9844vw, 4.0625rem);
     --button-text-color: #000;
     --text-stroke-color: #fff;
-
+    --contour-color: #000;
+    --animation-fill-color: red;
 }
