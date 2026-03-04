@@ -111,6 +111,14 @@
   font-size: 14px;
 }
 
+@supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+  .card__label {
+    -webkit-text-stroke: 1px #fff;
+    text-stroke: 1px #fff;
+    text-shadow: none;
+  }
+} 
+
 .card__description {
   display: flex;
   flex-direction: column;
@@ -165,7 +173,7 @@
   height: 38px;
 }
 
-.card__like-button:focus{
+.card__like-button:focus {
   outline: none;
 }
 
