@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
     --main-font: 'Inter Variable';
-    --main-card-font-weight: 400;
-    --title-card-font-weight: 700;
+    --main-card-font-weight: 410;
+    --title-card-font-weight: 715;
     --accent-font: 'PressStart2P';
     --accent-color: #000;
     --bg-color: #fff;
@@ -10,7 +10,6 @@
     --page-section-size: 700px;
     --logo-font-size: clamp(3.0625rem, 1,8943rem + 4.9844vw, 4.0625rem);
     --button-text-color: #000;
-    --text-stroke-color: #fff;
     --contour-color: #000;
     --animation-fill-color: red;
 }
